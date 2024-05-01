@@ -1,0 +1,61 @@
+X, Y = [int(val) for val in input().split()]------->2 inputs
+list=[int(val) for val in input().split()]
+a, b = map(int, input("Enter two integers separated by a space: ").split())
+
+CREATE TABLE Customers (
+  id INT,
+  first_name VARCHAR(40),
+  last_name VARCHAR(40),
+  age INT,
+  PRIMARY KEY (id)
+);->>>>>>>sql
+##########################333
+a=input()
+count=0
+for i in range(len(a)-1,-1,-1):
+    if(int(a[i])%2!=0):
+        count+=1
+        print(a[i],end="")
+if(count==0):
+    print("-1")
+#Your code below
+a=int(input())
+c=a
+for i in range(1,a+1):
+    for j in range(1,a+1):
+        if(i==1):
+            print(j,end=" ")
+        elif(j==1):
+            c+=1
+            print(c,end=" ")
+        elif(j==a):
+            c+=1
+            print(c,end=" ")
+        elif(i==a):
+            c+=1
+            print(c,end=" ")
+        else:
+            print("x",end=" ")
+    print()
+Selector: The selector targets HTML elements to which the style should be applied. It can be an HTML tag name, a class, an ID, or other selectors.
+ype the code to set a background image.
+background-image: url("filename.jpg");. Replace filename.jpg with the path to the background image you'd like to use.
+If the background image is in the same folder as your HTML file, you can just use the file name of the image. For example, background-image: url("my_background.png");.
+If the image is on the web and not in the same folder as your HTML file, you'll need to specify the path to the image. This can be the full URL to the image. For example, background-image: url("https://www.wikihow.com/images/my_background.png");.
+You can also use the path to the image on your web server. For example, if you are editing the HTML file www.wikihow.com/mypage.html and your background image is at www.wikihow.com/images/my_background.png, you can set your background using background-image: url("/images/my_background.png");.
+************8
+*************8
+************8
+<div class="row">
+      <div class="col-md-12">
+           <p>Your third content goes here</p>
+      </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+         <p>Your third content goes here</p>
+    </div>
+</div>->>>>>>Key to Bootstrap
+
+
+

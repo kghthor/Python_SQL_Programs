@@ -1,0 +1,16 @@
+import mysql.connector
+mydb=mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="2001" ,
+    database="dpt1"
+)
+mycursor=mydb.cursor()
+#mycursor.execute("create database emp1")
+#mycursor.execute("Create database dpt1")
+#mycursor.execute("create table dtab (id int ,name varchar (255),dep_id int)")
+#mycursor.execute("INSERT INTO dtab VALUES (1, 'rsked', 101),(2, 'dilna', 102),(3, 'rtyina', 103), (4, 'nidfna', 104)")
+#mycursor.execute("create table etab (id int ,name varchar (255),dep_id int)")
+#mycursor.execute("INSERT INTO etab VALUES (1, 'tina', 101),(2, 'mina', 101),(3, 'rina', 101), (4, 'nina', 101)")
+
+
